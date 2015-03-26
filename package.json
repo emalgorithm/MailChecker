@@ -1,0 +1,11 @@
+{
+	"name": "MailChecker",
+	"version": "0.0.0",
+	"dependencies": {
+		"mail-listener2": "*",
+		"util": "*",
+		"fs": "*",
+		"imap": "*",
+		"nodemailer": "*"
+	}
+}
