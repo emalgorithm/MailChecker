@@ -20,7 +20,7 @@ exports.sendEmails = function(receivers, readEmails){
 
 	transporter.sendMail(mailOptions, function(error, info){
 		if(error){
-		    console.log(err);
+		    console.log("DIO BOIA");
 		}else{
 		    console.log('Message sent: ' + info.response);
 		}
