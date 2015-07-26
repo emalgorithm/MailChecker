@@ -28,10 +28,10 @@ imap.once('ready', function() {
       //console.log('Message #%d', seqno);
       msg.on('body', function(stream, info) {
         stream.on('data', function(chunk) {
-		    var buffer = '';
-		    buffer += chunk.toString('utf8');
-		    if(buffer != "")
-		    	findEmailAddress(buffer);     
+            var buffer = '';
+            buffer += chunk.toString('utf8');
+            if(buffer != "")
+                findEmailAddress(buffer);     
         });
       });
       msg.once('attributes', function(attrs) {

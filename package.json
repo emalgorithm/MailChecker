@@ -1,10 +1,9 @@
 {
-	"name": "MailChecker",
-	"version": "0.0.0",
-	"dependencies": {
-		"util": "*",
-		"fs": "*",
-		"imap": "*",
-		"nodemailer": "*"
-	}
+    "name": "MailChecker",
+    "version": "0.0.0",
+    "dependencies": {
+        "util": "0.10.3",
+        "imap": "0.8.15",
+        "nodemailer": "1.4.0"
+    }
 }
